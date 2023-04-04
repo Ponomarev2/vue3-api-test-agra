@@ -48,6 +48,4 @@ async function getData(headers) {
   margin-top: 20px;
 }
 
-
-
 </style>

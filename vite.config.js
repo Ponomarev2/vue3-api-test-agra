@@ -5,9 +5,9 @@ import vue from '@vitejs/plugin-vue'
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: '/vue3-api-test-agra/', 
   plugins: [vue()],
   resolve: {
-    base: '/vue3-api-test-agra/', 
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
     }
