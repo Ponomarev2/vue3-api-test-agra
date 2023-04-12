@@ -8,6 +8,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "cors-anywhere": "^0.4.4",
     "vue": "^3.2.47",
     "vue3-easy-data-table": "^1.5.42"
   },
